@@ -9,11 +9,10 @@ public class Main {
         int x1 = scanner.nextInt();
         System.out.println("Введите второе число >> ");
         int x2 = scanner.nextInt();
-        doMult(x1, x2);
+        MulClass mulClass = new MulClass(x1, x2);
+        mulClass.doMult();
     }
 
-    static void doMult(int first, int second){
-        System.out.printf("Их произведение " + (int)Math.pow(10, (Math.log10(first) + Math.log10(second))));
-    }
+
 }
 

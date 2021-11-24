@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class Main {
-
+    @Deprecated
     public static void main(String[] args){
         Scanner in = new Scanner(System.in);
         System.out.print("Введите ссылку на изображение: ");
